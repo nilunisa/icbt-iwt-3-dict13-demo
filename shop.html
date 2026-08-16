@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-
 <body>
     <!-- Header -->
     <header class="bg-gray-dark sticky top-0 z-50">
@@ -253,6 +252,9 @@
                     class="bg-primary text-white py-2 px-4 rounded-full focus:outline-none">Show Filters</button>
             </div>
             
+            <!-- Filters & Products Wrapper -->
+            <div class="flex flex-col md:flex-row">
+
                 <!-- Filters -->
                 <div id="filters" class="w-full md:w-1/4 p-4 hidden md:block">
                     <!-- Category Filter -->
@@ -346,6 +348,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Products List -->
                 <div class="w-full md:w-3/4 p-4">
                     <!-- Products grid -->
@@ -421,7 +424,8 @@
                             </div>
                            <button onclick="alert('Item added to cart!')" class="bg-primary border border-transparent hover:bg-transparent hover:border-primary text-white hover:text-primary transition duration-300 w-full py-2 rounded-full font-semibold">Add to Cart</button>
                         </div>
-                    
+                    </div> <!-- Products Grid Ends Here -->
+
                     <!-- Pagination -->
                     <div class="flex justify-center mt-8">
                         <nav aria-label="Page navigation">
@@ -445,7 +449,8 @@
                         </nav>
                     </div>
                 </div>
-            </div>
+
+            </div> <!-- Filters & Products Wrapper Ends Here -->
         </div>
     </section>
 
@@ -555,7 +560,6 @@
                     <p class="mb-2 font-bold">&copy; 2024 Your Company. All rights reserved by <a
               href="https://github.com/spacemadev" target="_blank" style="color: green;">Maksim M</a> • Distributed by <a href="https://themewagon.com/" target="_blank"
         style="color: green;font-weight: bold;">ThemeWagon</a></p>
-          </p>
                     <ul class="flex justify-center lg:justify-start space-x-4 mb-4 lg:mb-0">
                         <li><a href="#" class="hover:text-primary">Privacy Policy</a></li>
                         <li><a href="#" class="hover:text-primary">Terms of Service</a></li>
